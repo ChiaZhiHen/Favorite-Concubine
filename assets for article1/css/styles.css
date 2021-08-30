@@ -86,10 +86,16 @@ body{
   background-color: var(--body-color);
   color: var(--text-color);
   line-height: 1.6;
+
 }
 
 h1,h2,h3,ul,p{
   margin: 0;
+}
+
+h1,h2,ul,p{
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 h1,h2,h3{
